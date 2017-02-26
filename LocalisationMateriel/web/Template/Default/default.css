@@ -1,0 +1,122 @@
+body {
+    width: 1350px;
+}
+.ribbon{
+    margin-left: 50px;
+}
+.ribbon span {
+    width: 164px;
+    text-align: center;
+    background: #CECEF6;
+    display: inline-block;
+    line-height: 48px;
+    margin-top: 8px;
+    position: relative;
+    -webkit-transition: background-color 0.2s, margin-top 0.2s;  /* Saf3.2+, Chrome */
+    -moz-transition: background-color 0.2s, margin-top 0.2s;  /* FF4+ */
+    -ms-transition: background-color 0.2s, margin-top 0.2s;  /* IE10 */
+    -o-transition: background-color 0.2s, margin-top 0.2s;  /* Opera 10.5+ */
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon a:hover span {
+    background: #FFD204;
+    margin-top: 0;
+}
+
+.ribbon span:before {
+    content: "";
+    position: absolute;
+    top: 48px;
+    left: 0;
+    border-right: 8px solid #9B8651;
+    border-bottom: 8px solid #CECEF6;
+}
+
+.ribbon span:after {
+    content: "";
+    position: absolute;
+    top: 48px;
+    right: 0;
+    border-left: 8px solid #9B8651;
+    border-bottom: 8px solid #CECEF6;
+}
+.ribbon a:link, .ribbon a:visited { 
+    color: #000;
+    text-decoration: none;
+    float: left;
+    height: 56px;
+    overflow: hidden;
+}
+.ribbon:after, .ribbon:before {
+    margin-top: 8px;
+    content: "";
+    float: left;
+    border: 24px solid #CECEF6;
+}
+
+.ribbon:after {
+    border-right-color: transparent;
+}
+
+.ribbon:before {
+    border-left-color: transparent;
+}
+
+.pagination {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 13px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.pagination .barrePagination a, .pagination .barrePagination span{
+    display: inline-block;
+    min-width: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-right: 2px;
+    border: 2px solid;
+     -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.pagination .barrePagination a {
+    border-color: #f0f0f0;
+    color: #2554C7;
+    text-decoration: none;
+}
+
+.pagination .barrePagination a:hover {
+    border: 2px solid #FBB339;
+    color: #FBB117;
+}
+
+.pagination .barrePagination .currentPage {
+    border-color: #FBB117;
+    color: white;
+    font-weight: bold;
+    background-color: #FBB339;
+}
+.pagination .barrePagination .disabled {
+    border: #f0f0f0;
+    color: lightslategray;
+}
+.pagination .pageNumber input[type="number"]{
+    width: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2554C7;
+}
+
+.pageNumber{
+    float: right;
+    margin-right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #2554C7;
+}

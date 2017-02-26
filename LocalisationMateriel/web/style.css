@@ -1,0 +1,159 @@
+.accueil {
+    margin-top: -15px;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: -1px -1px #9df, 2px 2px #49d, 5px 5px 5px #000;
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
+    color:#000;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 400px;
+}
+
+.divTable{
+    min-height: 533px;
+}
+
+.divTable table{
+    margin-left: 50px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.divTable table td{
+    width: 145px;
+    border: 1px solid #000;
+    height: 20px;
+    padding: 5px;
+}
+
+.divTable table tr:first-child { 
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    background: -webkit-linear-gradient( top, #003f7f, #005fbf);
+    background: -moz-linear-gradient( top, #003f7f, #005fbf);
+    background: -ms-linear-gradient( top, #003f7f, #005fbf);
+    background: -o-linear-gradient( top, #003f7f, #005fbf);
+}
+
+.divTable table tr:nth-child(2){
+    background-color: #E5E4E2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.divTable table tr:nth-child(2n+3) { 
+    background-color: #F8F8FF;
+}
+
+.divTable table tr:nth-child(2n+4) { 
+    background-color: #F0F0FF;
+}
+
+.page{
+    width: 36px;
+}
+
+.layout{
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.margin{
+    margin-left: 50px;
+}
+
+.formMateriel{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 400px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 30px;
+    font-weight: bold;
+    color: #09C;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    -webkit-box-shadow: 0px 0px 10px 0px #656565;
+    -moz-box-shadow: 0px 0px 10px 0px #656565;
+    box-shadow: 0px 0px 10px 0px #656565;
+    -o-box-shadow: 0px 0px 10px 0px #656565;
+}
+
+.formMateriel .button{
+    outline: none;
+    margin-top: 10px;
+    width: 100px;
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 30px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.formMateriel .submit{
+    margin-left: 50px;
+    background: #0C5;
+    color: #fff;
+}
+
+.formMateriel .submit:hover{
+    background: #fff;
+    color: #0C5;
+}
+
+.formMateriel .reset{
+    background: #09C;
+    color: #fff;
+}
+
+.formMateriel .reset:hover{
+    background: #fff;
+    color: #09C;
+}
+
+.layoutButton{
+    display: block;
+    text-align: center;
+}
+
+.formMateriel input, .formMateriel select {
+    box-shadow: inset 1px 1px 2px 0px #656565;
+    -webkit-box-shadow: inset 1px 1px 2px 0px #656565;
+    -moz-box-shadow: inset 1px 1px 2px 0px #656565;
+    -o-box-shadow: inset 1px 1px 2px 0px #656565;
+    border: 1px solid #eee;
+}
+
+.formMateriel input[type="number"]{
+    width: 50px;
+    margin-left: 10px;
+}
+
+.formMateriel input[type="text"], .formMateriel input[type="date"]{
+    width: 162px;
+}
+
+.formMateriel .divControle{
+    padding-top: 10px;
+}
+
+.dateIncorrecte{
+    color: #F70D1A;
+    font-weight: bold;
+}
