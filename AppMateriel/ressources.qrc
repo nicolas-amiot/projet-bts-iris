@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/ressources">
+        <file>images/voirInfo.png</file>
+        <file>images/type.png</file>
+        <file>images/admin.png</file>
+        <file>images/open.png</file>
+    </qresource>
+</RCC>
